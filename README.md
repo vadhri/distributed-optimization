@@ -8,6 +8,7 @@ This repository contains a collection of Jupyter Notebooks and resources focused
 
 ## Organization
 
+
 ### core_methods/
 
 Foundational optimization methods, theory, and mathematical background.
@@ -60,6 +61,8 @@ Consensus algorithms and dynamics on graphs, including average, min, max, and st
 
 For more details, see the individual notebooks. Contributions and suggestions are welcome!
 
-### pytorch-distributed-simple-linear-regression/
+### pytorch-distributed/
 
-Distributed linear regression using PyTorch's distributed computing. See folder for scripts, notebook, and results.
+| Folder | Description |
+|--------|-------------|
+| [simple-linear-regression](pytorch-distributed/simple-linear-regression/) | Distributed linear regression using PyTorch's distributed computing. |
