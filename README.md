@@ -21,6 +21,7 @@ Foundational optimization methods, theory, and mathematical background.
 | [RestrictingOptimizationSurface](core_methods/RestrictingOptimizationSurface.ipynb) | Restricting optimization to feasible regions. |
 | [Stabiilty](core_methods/Stabiilty.ipynb) | Stability analysis in optimization. |
 | [constrained_optimization](core_methods/constrained_optimization.ipynb) | Solving constrained optimization problems. |
+| [continous_fixed_time_dgd](core_methods/continous_fixed_time_dgd.ipynb) | Continuous fixed-time distributed gradient descent. |
 | [convergence](core_methods/convergence.ipynb) | Convergence analysis of optimization routines. |
 | [gradient_fields](core_methods/gradient_fields.ipynb) | Exploration of gradient fields. |
 | [least_squares_2nd_order](core_methods/least_squares_2nd_order_optmization_sine_cos.ipynb) | Second-order least squares optimization (sine/cosine). |
@@ -57,5 +58,8 @@ Consensus algorithms and dynamics on graphs, including average, min, max, and st
 | [drone_direction_consensus](graph_consensus/undirected_unweighted_drone_direction_consensus.ipynb) | Drone direction consensus in undirected, unweighted graphs. |
 | [weighted_graph_consensus](graph_consensus/undirected_weighted_connected_graph_avg_min_max_consensus.ipynb) | Consensus in undirected, weighted connected graphs. |
 
----
 For more details, see the individual notebooks. Contributions and suggestions are welcome!
+
+### pytorch-distributed-simple-linear-regression/
+
+Distributed linear regression using PyTorch's distributed computing. See folder for scripts, notebook, and results.
