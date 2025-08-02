@@ -1,0 +1,31 @@
+# ray_cluster.yaml
+cluster_name: local-cluster
+
+# Use the local provider to run on your local machine
+provider:
+  type: local
+  head_ip: 127.0.0.1
+
+# Head node configuration
+head_node:
+  # Use a minimal Docker image or just run directly on host
+  # This example runs on your host OS, no docker:
+  RayStartParams:
+    dashboard_host: 0.0.0.0
+    num_cpus: 4
+    include_dashboard: true
+
+# Worker nodes (empty for local single-node cluster)
+worker_nodes: []
+
+# File mounts if needed
+file_mounts: {}
+
+# Setup commands for head node
+setup_commands: []
+
+# Initialization commands for head node
+head_setup_commands: []
+
+# Setup commands for worker nodes
+worker_setup_commands: []

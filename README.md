@@ -66,3 +66,10 @@ For more details, see the individual notebooks. Contributions and suggestions ar
 | Folder | Description |
 |--------|-------------|
 | [simple-linear-regression](pytorch-distributed/simple-linear-regression/) | Distributed linear regression using PyTorch's distributed computing. |
+| [distributed-schocastic-gradient-descent](pytorch-distributed/distributed-schocastic-gradient-descent/) | Distributed stochastic gradient descent with profiling and results. |
+
+### ray/
+
+| Folder | Description |
+|--------|-------------|
+| [decentralized-sgd](ray/decentralized-sgd/) | Decentralized SGD experiments and scripts using Ray. |
