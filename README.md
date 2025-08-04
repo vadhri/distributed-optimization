@@ -73,3 +73,11 @@ For more details, see the individual notebooks. Contributions and suggestions ar
 | Folder | Description |
 |--------|-------------|
 | [decentralized-sgd](ray/decentralized-sgd/) | Decentralized SGD experiments and scripts using Ray. |
+
+### flower/
+
+Federated learning experiments using Flower framework.
+
+| Project | Description |
+|---------|-------------|
+| [simple-linear-regression](flower/simple-linear-regression/) | Federated simple linear regression with Flower. |
