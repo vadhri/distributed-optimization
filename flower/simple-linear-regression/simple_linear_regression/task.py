@@ -10,7 +10,7 @@ from torch.utils.data import TensorDataset, DataLoader
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Simple quadratic regression model: f(x) = a * x^2
+# Simple quadratic regression model: f(x) = a * x^2 + b * x + c
 class Net(nn.Module):
     def __init__(self):
         super().__init__()
@@ -23,17 +23,17 @@ class Net(nn.Module):
 
 fds = None  # Cache FederatedDataset
 
-# Generate synthetic data for f(x) = (partition+1)*x^2
+# Generate synthetic data for f(x) = x^2 + 5*x + 10
 def load_data(partition_id: int, num_partitions: int):
     np.random.seed(42)
     torch.manual_seed(42)
     print(f"Loading data for partition {partition_id} of {num_partitions}...", flush=True)
+    a = float(partition_id + 1)
     n_samples = 200
-    x = np.random.uniform((partition_id+1)*-2, (partition_id+2)*2, size=(n_samples, 1)).astype(np.float32)
+    x = np.random.uniform((partition_id+1)*-2*a, (partition_id+2)*a*2, size=(n_samples, 1)).astype(np.float32)
     x = (x - x.mean()) / x.std()
 
-    a = float(partition_id + 1)
-    y = x ** 2
+    y = x ** 2 + 5*x + 10 + np.random.normal(0, 0.1, size=(n_samples, 1)).astype(np.float32)
 
     # Split 80/20
     split = int(0.8 * n_samples)
