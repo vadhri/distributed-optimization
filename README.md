@@ -78,6 +78,7 @@ For more details, see the individual notebooks. Contributions and suggestions ar
 
 Federated learning experiments using Flower framework.
 
-| Project | Description |
-|---------|-------------|
+| Location | Description |
+|----------|-------------|
 | [simple-linear-regression](flower/simple-linear-regression/) | Federated simple linear regression with Flower. |
+| [simple-minst-partitioned-iid](flower/simple-minst-partitioned-iid/) | Federated MNIST classification with partitioned IID data using Flower. |
