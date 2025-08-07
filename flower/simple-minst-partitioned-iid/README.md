@@ -14,6 +14,10 @@ This project implements federated learning for MNIST digit classification using 
 | minst_hdf5.py | Utilities for loading and managing MNIST data in HDF5 format. |
 | __init__.py | Package initializer. |
 
+Wandb training progress report is below.
+
+https://wandb.ai/vadhri-venkat/distributed-minst/reports/Distributed-minst-using-federation-learning--VmlldzoxMzg3ODQ4NA
+
 ## Install dependencies and project
 
 The dependencies are listed in the `pyproject.toml` and you can install them as follows:
