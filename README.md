@@ -82,3 +82,4 @@ Federated learning experiments using Flower framework.
 |----------|-------------|
 | [simple-linear-regression](flower/simple-linear-regression/) | Federated simple linear regression with Flower. |
 | [simple-minst-partitioned-iid](flower/simple-minst-partitioned-iid/) | Federated MNIST classification with partitioned IID data using Flower. |
+| [multi-node-gpu-linear-regression](flower/multi-node-gpu-linear-regression/) | Multi-node GPU linear regression with Flower, Terraform, and CUDA. |
