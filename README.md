@@ -70,9 +70,12 @@ For more details, see the individual notebooks. Contributions and suggestions ar
 
 ### ray/
 
-| Folder | Description |
-|--------|-------------|
+| File/Folder | Description |
+|-------------|-------------|
 | [decentralized-sgd](ray/decentralized-sgd/) | Decentralized SGD experiments and scripts using Ray. |
+| [ray_basics.ipynb](ray/ray_basics.ipynb) | • Ray basics and cluster setup. |
+| [distributed_regression_hyperparam_tuning.ipynb](ray/distributed_regression_hyperparam_tuning.ipynb) | • Distributed logistic regression and hyperparameter tuning. |
+| [sharded_data.ipynb](ray/sharded_data.ipynb) | • Sharded data creation and distributed XGBoost training. |
 
 ### flower/
 
