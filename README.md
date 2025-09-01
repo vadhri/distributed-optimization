@@ -6,11 +6,11 @@ This repository contains a collection of Jupyter Notebooks and resources focused
 [Open DO.pdf in Google Docs Viewer](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/vadhri/distibuted-optimization/main/DO.pdf)
 
 ### References
-[Convex Optimization](https://www.youtube.com/playlist?list=PLoROMvodv4rMJqxxviPa4AmDClvcbHi6h)
-[Distributed Optimization and ML](https://www.youtube.com/playlist?list=PLOzRYVm0a65fhKDS8cYIC7YCuVGJ4FOJx)
-[Ray Fundamentals](https://courses.anyscale.com/courses/intro-to-ray)
-[Federated Learning by Flower](https://www.deeplearning.ai/short-courses/intro-to-federated-learning/)
-[PyTorch Distributed](https://docs.pytorch.org/tutorials/beginner/dist_overview.html)
+-[Convex Optimization](https://www.youtube.com/playlist?list=PLoROMvodv4rMJqxxviPa4AmDClvcbHi6h)
+-[Distributed Optimization and ML](https://www.youtube.com/playlist?list=PLOzRYVm0a65fhKDS8cYIC7YCuVGJ4FOJx)
+-[Ray Fundamentals](https://courses.anyscale.com/courses/intro-to-ray)
+-[Federated Learning by Flower](https://www.deeplearning.ai/short-courses/intro-to-federated-learning/)
+-[PyTorch Distributed](https://docs.pytorch.org/tutorials/beginner/dist_overview.html)
 
 ## Table of Contents
 
