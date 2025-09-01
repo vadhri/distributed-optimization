@@ -1,7 +1,7 @@
 # Distributed Optimization
 
 ## Introduction
-This repository contains a collection of Jupyter Notebooks and resources focused on distributed optimization, convex analysis, and consensus algorithms. The materials are organized by topic and cover both foundational concepts and advanced methods, including the Augmented Lagrangian, ADMM, dual ascent, graph-based consensus, and more. The files only contains python code that can be executed and theory part. 
+This repository contains a collection of Jupyter Notebooks and resources focused on distributed optimization, convex analysis, and consensus algorithms. The materials are organized by topic and cover both foundational concepts and advanced methods, including the Augmented Lagrangian, ADMM, dual ascent, graph-based consensus, and more. The files only contains python code that can be executed and theory part is in the pdf below.
 
 [Open DO.pdf in Google Docs Viewer](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/vadhri/distibuted-optimization/main/DO.pdf)
 
